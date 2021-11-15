@@ -1,9 +1,6 @@
-# syntax error
-print("Hello world")
+# Program to generate a random number between 0 and 10
+# import the random module
+import random
 
-# runtime error
-10 * (2/0)
+print(random.randint(0,10))
 
-# semantic error
-name = "Alice"
-print("Hello name")
