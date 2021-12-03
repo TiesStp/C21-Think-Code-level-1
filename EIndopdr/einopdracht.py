@@ -1,6 +1,5 @@
-a = 33
-b = 33
-if b > a:
-  print("b is greater than a")
-elif a == b:
-  print("a and b are equal")
+num = int(input("Kies een nummer: "))
+if (num % 2) == 0:
+   print("{0} is Even".format(num))
+else:
+   print("{0} is Oneven".format(num))
